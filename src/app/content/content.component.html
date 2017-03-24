@@ -1,0 +1,32 @@
+
+<div id="exTab1" class="container">
+  <ul  class="nav nav-pills">
+    <li class="active">
+      <a  routerLink="/overview">Overview</a>
+    </li>
+    <li><a routerLink="/person">Person Detail</a>
+    </li>
+  </ul>
+</div>
+<router-outlet></router-outlet>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <button class="btn btn-primary" (click)="onAddMassage()">New Random Massage</button>
+
+    </div>
+  </div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <article class="panel panel-default" *ngFor="let entry of allMessages">
+        {{entry.content}}
+      </article>
+    </div>
+  </div>
+</div>
+
+

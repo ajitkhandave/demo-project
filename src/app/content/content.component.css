@@ -1,0 +1,15 @@
+.table{
+  margin: 40px 0;
+}
+.nav-pills li{
+      border: 1px solid #337ab7;
+      border-radius: 5px;
+}
+#exTab1{
+  background: #f9f9f9;
+  box-shadow: inset 2px 4px 20px #ccc;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
